@@ -1,0 +1,9 @@
+.banner{
+    width: 100%;
+    background-image: url(./assets/images/banner.png);
+}
+
+
+#course-content{
+    background-image: black;
+}
