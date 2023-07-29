@@ -1,35 +1,141 @@
-*{
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
     margin: 0;
-}
-
-.banner{
-    height: 100vh;
-    background-image: url(./assets/images/banner.png);
-    background-color: #000000ef;
-    margin-bottom: 1px solid blue;
-}
-
-
-#course-content{
-    background-image: black;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-}
-
-h1{
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header.banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header.banner .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    text-transform: uppercase;
-    color: #253ece;
-}
-
-p{
+  }
+  
+  header.banner .logo img {
+    width: 150px;
+  }
+  
+  header.banner h1 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  header.banner p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  header.banner .botao {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Main section styles */
+  main {
+    padding: 20px;
+  }
+  
+  #course-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #course-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  #course-content p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .modules-list .module {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .modules-list .module span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Transform World section styles */
+  #transform-world {
+    background-color: #007bff;
+    color: #fff;
     text-align: center;
-    color: #FFF;
-}
-
-.modules-list{
-    background-color: #253ece;
-}
+    padding: 30px;
+  }
+  
+  #transform-world p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Professional Challenges section styles */
+  #professional-challenges {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #professional-challenges h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  #professional-challenges img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #professional-challenges p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer .dio-logo {
+    max-width: 150px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
