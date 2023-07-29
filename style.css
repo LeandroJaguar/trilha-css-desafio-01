@@ -1,9 +1,35 @@
+*{
+    margin: 0;
+}
+
 .banner{
-    width: 100%;
+    height: 100vh;
     background-image: url(./assets/images/banner.png);
+    background-color: #000000ef;
+    margin-bottom: 1px solid blue;
 }
 
 
 #course-content{
     background-image: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #253ece;
+}
+
+p{
+    text-align: center;
+    color: #FFF;
+}
+
+.modules-list{
+    background-color: #253ece;
 }
