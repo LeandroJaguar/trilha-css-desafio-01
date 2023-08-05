@@ -1,142 +1,148 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  /* Header styles */
-  header.banner {
-    background-image: url(./assets/images/banner.png);
-    background-color: rgba(19, 20, 20, 0.548);
-    padding: 20px;
-  }
-  
-  header.banner .banner-content {
-    max-width: 800px;
-    height: 35rem;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  header.banner .logo img {
-    width: 150px;
-  }
-  
-  header.banner h1 {
-    font-size: 28px;
-    margin-top: 20px;
-    color: #000000;
-  }
-  
-  header.banner p {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #000000;
-  }
-  
-  header.banner .botao {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
-  /* Main section styles */
-  main {
-    padding: 20px;
-  }
-  
-  #course-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  #course-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #007bff;
-  }
-  
-  #course-content p {
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .modules-list .module {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .modules-list .module span {
-    font-weight: bold;
-    color: #007bff;
-  }
-  
-  /* Transform World section styles */
-  #transform-world {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 30px;
-  }
-  
-  #transform-world p {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  /* Professional Challenges section styles */
-  #professional-challenges {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  #professional-challenges h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #007bff;
-  }
-  
-  #professional-challenges img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  #professional-challenges p {
-    font-size: 16px;
-    color: #333;
-  }
-  
-  /* Footer styles */
-  footer {
-    background-color: #000000;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer .dio-logo {
-    max-width: 150px;
-  }
-  
-  footer p {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #333;
-  }
-  
-  footer a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styles */
+header.banner {
+  background-image: url(./assets/images/banner.png);
+  background-color: rgba(19, 20, 20, 0.548);
+  padding: 20px;
+}
+
+header.banner .banner-content {
+  max-width: 800px;
+  height: 36rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header.banner .logo img {
+  width: 150px;
+}
+
+header.banner h1 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+header.banner p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+header.banner .botao {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+#course-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#course-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-align: center;
+}
+
+#course-content p {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.modules-list .module {
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modules-list .module span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Transform World section styles */
+#transform-world {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+#transform-world p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Professional Challenges section styles */
+#professional-challenges {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#professional-challenges h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#professional-challenges p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .dio-logo {
+  max-width: 15rem;
+}
+
+footer p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #333;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
